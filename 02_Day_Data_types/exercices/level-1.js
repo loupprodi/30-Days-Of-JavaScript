@@ -1,5 +1,5 @@
 //1- Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
-const challenge = '30 days of challenge';
+const challenge = '30 days of JavaScript';
 
 //2- Print the string on the browser console using console.log()
 console.log(challenge);
@@ -14,21 +14,21 @@ console.log('challenger'.toUpperCase()); // CHALLENGER
 console.log('CHALLEGENGER'.toLowerCase()); // challenger
 
 //6- Cut (slice) out the first word of the string using substr() or   method
-console.log('challenger'.substring(2, 7));
+console.log('challenger'.substring(1, 10));
 
 //7- Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
-console.log('30 Days Of JavaScript'.substring(3, 6));
+console.log('30 Days Of JavaScript'.substring(0, 2));
 
 //8- Check if the string contains a word Script using includes() method
 console.log(challenge.includes('30 days of challenge'));
 
 //9- Split the string into an array using split() method
-const divisao = challenge.split();
-console.log(divisao);
+console.log(challenge.split(''));
 
 //10- 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
-const companias = ['Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'];
-console.log(companias);
+let empresa = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
+let array1 = empresa.split(' ');
+console.log(array1);
 
 //11-Change 30 Days Of JavaScript to 30 Days Of Python using replace() method.
 let mudar = challenge.replace(/JavaScript/g, 'Python');
@@ -72,10 +72,11 @@ console.log(string2.startsWith(30));
 console.log(string2.endsWith('JavaScript'));
 
 //23-Use match() method to find all the a’s in 30 Days Of JavaScript
+
 console.log(string2.match('a'));
 
 //24-  and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
-console.log(challenge.concat(string2));
+console.log(challenge.concat(ws));
 
 //25-Use repeat() method to print 30 Days Of JavaScript 2 times
 console.log(string2.repeat(2));
