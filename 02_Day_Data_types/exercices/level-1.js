@@ -41,3 +41,39 @@ console.log(challenge.charCodeAt('J'));
 
 // 15 - Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript.
 console.log(challenge.indexOf('a'));
+
+//16- Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
+console.log(challenge.lastIndexOf('a'));
+
+// 17 - Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'.
+let position =
+  'You cannot end a sentence with because because because is a conjunction';
+console.log(position.indexOf('because'));
+
+//18- Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+let last =
+  'You cannot end a sentence with because because because is a conjunction';
+console.log(last.lastIndexOf('because'));
+
+//19- Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+let find =
+  'You cannot end a sentence with because because because is a conjunction';
+console.log(find.search('because'));
+
+//20- Use trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
+const ws = ' 30 Days Of JavaScript ';
+console.log(ws.trim());
+
+//21- Use startsWith() method with the string 30 Days Of JavaScript and make the result true
+const string2 = '30 Days Of JavaScript';
+console.log(string2.startsWith(30));
+
+//22-Use endsWith() method with the string 30 Days Of JavaScript and make the result true
+console.log(string2.endsWith('JavaScript'));
+
+//23-Use match() method to find all the a’s in 30 Days Of JavaScript
+console.log(string2.match('a'));
+
+//24-Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
+
+//25-
