@@ -72,8 +72,8 @@ console.log(string2.startsWith(30));
 console.log(string2.endsWith('JavaScript'));
 
 //23-Use match() method to find all the a’s in 30 Days Of JavaScript
-
-console.log(string2.match('a'));
+const reg = string2.match(/a/gi);
+console.log(reg);
 
 //24-  and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
 console.log(challenge.concat(ws));
