@@ -27,7 +27,7 @@ console.log(challenge.split(''));
 
 //10- 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
 let empresa = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
-let array1 = empresa.split(' ');
+const array1 = empresa.split(' ');
 console.log(array1);
 
 //11-Change 30 Days Of JavaScript to 30 Days Of Python using replace() method.
