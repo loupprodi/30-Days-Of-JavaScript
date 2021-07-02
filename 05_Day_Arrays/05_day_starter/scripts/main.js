@@ -24,10 +24,24 @@ if (existCountry == true) {
   countries.push('Ethiopia');
 }
 
-const existTechs =webTechs.includes('Sass')
-if(existTechs === true){
-  console.log('Sass')
+const existSass = webTechs.includes('Sass');
+const addSass = webTechs.push('Sass');
+if (existSass === true) {
+  console.log('Sass');
 } else {
-  existTechs.push('Sass')
+  console.log('Sass');
 }
 
+//1.Slice the first ten countries from the countries array
+console.log(countries.splice(0, 10));
+
+//2-Find the middle country(ies) in the countries array
+let middleCountries = Math.floor(countries.length / 2);
+console.log(middleCountries);
+console.log(countries.splice(91, 1));
+
+//3-Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+const firstHalf = countries.splice(0, middleCountries);
+const secondHalf = countries.splice(-middleCountries);
+
+console.log(firstHalf, secondHalf);
